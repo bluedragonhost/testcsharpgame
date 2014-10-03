@@ -28,7 +28,7 @@ namespace testcmdgame
 			Console.WriteLine ("Link Start");
 			Console.WriteLine ("Player Username: BETATESTPLAYER");
 			Console.WriteLine ("Player Password: abetaisfinetoo");
-			Console.WriteLine ("Credentials Correct!")
+			Console.WriteLine ("Credentials Correct!");
 			#endregion
 
 
