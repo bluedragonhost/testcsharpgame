@@ -85,17 +85,39 @@ namespace testcmdgame
 			}
 			#endregion
 			#region BetaNotfication
+			//this will tell the user about how the beta is going to work!
 			Console.WriteLine ("The Beta has commenced,");
+			Thread.Sleep (3000); 
 			Console.WriteLine ("That means that the project is not fully finished");
+			Thread.Sleep (3000);
 			Console.WriteLine ("The game will surely have its fair share of bugs");
+			Thread.Sleep (3000);
 			Console.WriteLine ("During the Beta, the server will not accept changes in player looks or the name of the player");
+			Thread.Sleep (3000);
 			Console.WriteLine ("The Mainframe of the game lives in San Fransisco");
+			Thread.Sleep (3000);
 			Console.WriteLine ("During the Beta, Nobody will be able to interact with other players util we iron out all of the bugs");
+			Thread.Sleep (3000);
 			Console.WriteLine ("This is to be sure that nobody cheats.");
+			Thread.Sleep (3000);
 			Console.WriteLine ("Thankyou for reading this short messag!");
 			Thread.Sleep (3000);
 			Console.WriteLine ("Are you ready to continue the game?");
 			Console.ReadKey ();
+			#endregion
+			#region BeginFirstPart
+			//introduce the player to they're surroundings
+			Console.WriteLine ("You have spawned in a beatiful forest");
+			Console.WriteLine ("There are beautiful things to look at everywhere,");
+			Console.WriteLine ("But you do not have the time to look around!");
+			//explain the meaning of being here
+			Console.WriteLine ("Do you know why you are here");
+			Console.WriteLine ("No, I do not!");
+			Console.WriteLine ("That's weird I thought I told you why you were here, oh well");
+			Console.WriteLine (nameofChar);
+			Console.WriteLine ("Walks along the forest floor before him,");
+			Console.WriteLine ("Wow, this place is HUGE");
+			Console.WriteLine ("Actually Sir, It is quite small if you ask me!"); 
 			#endregion
 
 
