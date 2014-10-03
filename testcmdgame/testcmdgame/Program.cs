@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Threading;
 
 namespace testcmdgame
 {
@@ -11,16 +12,20 @@ namespace testcmdgame
 			#region Intro to the app
 			Console.WriteLine ("Hello and Welcome to the TestApp Game");
 			#endregion
+			Thread.Sleep (1000); 
 			#region AutoSaveFeature
 			Console.WriteLine ("This app has an autosave feature and will pause and save before continuing OK?");
 			Console.ReadKey ();
+			Thread.Sleep (1000); 
 			Console.WriteLine ("The app has successfully saved");
+			Thread.Sleep (500);
 			#endregion
 			#region Customise the Player
 			//coming soon!
 			#endregion
 			#region ExplanationOfTheBeta
 			Console.WriteLine ("This app is only in beta and may have some weirds bugs in it,");
+			Thread.Sleep (50); 
 			Console.WriteLine ("To help the developers out please report all bugs to the issues page");
 			Console.WriteLine ("On Github, Thankyou!"); 
 			#endregion
