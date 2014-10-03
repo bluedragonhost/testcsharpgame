@@ -167,6 +167,8 @@ namespace testcmdgame
 
 					Console.WriteLine ("You have been captured and killed by a person hiding in the ice cream van!");
 					Console.WriteLine ("You have died, please close and re-open the app to start over again");
+					Thread.Sleep (10000);
+
 					break;
 
 
