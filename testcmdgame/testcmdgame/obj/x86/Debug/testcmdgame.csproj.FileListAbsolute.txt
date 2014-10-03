@@ -1,0 +1,5 @@
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\bin\Debug\testcmdgame.exe
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\bin\Debug\testcmdgame.pdb
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\obj\x86\Debug\testcmdgame.csprojResolveAssemblyReference.cache
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\obj\x86\Debug\testcmdgame.exe
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\obj\x86\Debug\testcmdgame.pdb
