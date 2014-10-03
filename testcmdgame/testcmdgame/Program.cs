@@ -67,6 +67,13 @@ namespace testcmdgame
 			//references what your name is from the string value "nameofChar"
 			Console.WriteLine (nameofChar);
 			#endregion
+			#region AppearancesEngine
+			//this will introduce the player to the engine
+			Console.WriteLine (nameofChar);
+			Console.WriteLine ("What do you look like?");
+			bool isBeta = true;
+
+			#endregion
 
 
 
