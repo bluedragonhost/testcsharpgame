@@ -1,0 +1,4 @@
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\bin\Release\testcmdgame.exe
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\bin\Release\testcmdgame.pdb
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\obj\x86\Release\testcmdgame.exe
+C:\Users\Jack Sullivan\Documents\GitHub\testcsharpgame\testcmdgame\testcmdgame\obj\x86\Release\testcmdgame.pdb

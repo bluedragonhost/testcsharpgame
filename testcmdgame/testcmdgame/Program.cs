@@ -73,7 +73,7 @@ namespace testcmdgame
 			Console.WriteLine ("What do you look like?");
 			bool isBeta = true;
 			string LookofChar = "!The Character Appearence Customisation will be unavailble during the Beta!";
-			if (isBeta = true)
+			if (isBeta == true)
 			{
 				Console.WriteLine ("During the Beta, Nobody will be able to change the name value or the appearence of any character");
 				Console.WriteLine ("OK?");
@@ -85,7 +85,17 @@ namespace testcmdgame
 			}
 			#endregion
 			#region BetaNotfication
-			//coming soon!
+			Console.WriteLine ("The Beta has commenced,");
+			Console.WriteLine ("That means that the project is not fully finished");
+			Console.WriteLine ("The game will surely have its fair share of bugs");
+			Console.WriteLine ("During the Beta, the server will not accept changes in player looks or the name of the player");
+			Console.WriteLine ("The Mainframe of the game lives in San Fransisco");
+			Console.WriteLine ("During the Beta, Nobody will be able to interact with other players util we iron out all of the bugs");
+			Console.WriteLine ("This is to be sure that nobody cheats.");
+			Console.WriteLine ("Thankyou for reading this short messag!");
+			Thread.Sleep (3000);
+			Console.WriteLine ("Are you ready to continue the game?");
+			Console.ReadKey ();
 			#endregion
 
 
