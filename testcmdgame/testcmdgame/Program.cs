@@ -125,7 +125,7 @@ namespace testcmdgame
 			#region SecondPart
 			Console.WriteLine ("You continue walking along a Path that is very wet like it has rained not long ago");
 			Console.WriteLine ("What do you do next");
-
+			Console.WriteLine ("I walk along a passage"); 
 			#endregion
 
 
