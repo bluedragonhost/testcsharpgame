@@ -72,7 +72,20 @@ namespace testcmdgame
 			Console.WriteLine (nameofChar);
 			Console.WriteLine ("What do you look like?");
 			bool isBeta = true;
-
+			string LookofChar = "!The Character Appearence Customisation will be unavailble during the Beta!";
+			if (isBeta = true)
+			{
+				Console.WriteLine ("During the Beta, Nobody will be able to change the name value or the appearence of any character");
+				Console.WriteLine ("OK?");
+				Console.ReadKey ();
+			}
+			else
+			{
+				Console.WriteLine (LookofChar); 
+			}
+			#endregion
+			#region BetaNotfication
+			//coming soon!
 			#endregion
 
 
