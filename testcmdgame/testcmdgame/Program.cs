@@ -32,6 +32,7 @@ namespace testcmdgame
 			Console.WriteLine ("On Github, Thankyou!"); 
 			Thread.Sleep (1000);
 			#endregion
+			//let the game begin
 			#region GameStart
 			//sao go!
 			Console.WriteLine ("Link Start");
