@@ -50,11 +50,17 @@ namespace testcmdgame
 			#endregion
 			#region AfterGameStartIntro
 			Console.WriteLine ("This game is like all others");
+			Thread.Sleep (1000);
 			Console.WriteLine ("It is intended to the played randomly by the cpu");
+			Thread.Sleep (1000);
 			Console.WriteLine ("The Player has no control over most of the game mechanics");
+			Thread.Sleep (1000);
 			Console.WriteLine ("The Player will be able to control some parts of the game but not others!");
+			Thread.Sleep (1000);
 			Console.WriteLine ("During the beta the Players will not be able to customise their character");
+			Thread.Sleep (1000);
 			Console.WriteLine ("The feature will be added though!");
+			Thread.Sleep (1000);
 			#endregion
 			#region WelcomeToTheGame
 			//the game asks the character what their name is
@@ -111,23 +117,41 @@ namespace testcmdgame
 			#region BeginFirstPart
 			//introduce the player to they're surroundings
 			Console.WriteLine ("You have spawned in a beatiful forest");
+			Thread.Sleep (1000); 
 			Console.WriteLine ("There are beautiful things to look at everywhere,");
+			Thread.Sleep (1000);
 			Console.WriteLine ("But you do not have the time to look around!");
+			Thread.Sleep (1000);
 			//explain the meaning of being here
 			Console.WriteLine ("Do you know why you are here");
+			Thread.Sleep (1000);
 			Console.WriteLine ("No, I do not!");
+			Thread.Sleep (1000);
 			Console.WriteLine ("That's weird I thought I told you why you were here, oh well");
+			Thread.Sleep (1000);
 			Console.WriteLine (nameofChar);
+			Thread.Sleep (1000);
+			Thread.Sleep (1000);
 			Console.WriteLine ("Walks along the forest floor before him,");
+			Thread.Sleep (1000);
 			Console.WriteLine ("Wow, this place is HUGE");
+			Thread.Sleep (1000);
 			Console.WriteLine ("Actually Sir, It is quite small if you ask me!"); 
+			Thread.Sleep (1000);
 			#endregion
 			#region SecondPart
 			Console.WriteLine ("You continue walking along a Path that is very wet like it has rained not long ago");
+			Thread.Sleep (1000);
 			Console.WriteLine ("What do you do next");
+			Thread.Sleep (1000);
+			Console.WriteLine ("You Say:");
+			Thread.Sleep (1000);
 			Console.WriteLine ("I continue walking!");
+			Thread.Sleep (1000);
 			Console.WriteLine ("What do you do next, A. There infront of you a ice cream van has spawned or B. Do you walk down this very boring path");
+			Thread.Sleep (1000);
 			Console.WriteLine ("You can pick either a or b for this one.");
+			Thread.Sleep (1000);
 			// The Player can pick for themselves in this bit
 			ConsoleKeyInfo keyInfo;
 			while ((keyInfo = Console.ReadKey(true)).Key != ConsoleKey.Escape)
@@ -141,6 +165,7 @@ namespace testcmdgame
 				case ConsoleKey.A:
 
 					Console.WriteLine ("You have been captured and killed by a person hiding in the ice cream van!");
+					Console.WriteLine ("You have died, please close and re-open the app to start over again");
 					break;
 
 
@@ -151,6 +176,7 @@ namespace testcmdgame
 				}
 
 			#endregion
+
 
 
 
