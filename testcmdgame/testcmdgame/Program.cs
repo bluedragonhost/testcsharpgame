@@ -103,7 +103,7 @@ namespace testcmdgame
 			Thread.Sleep (3000);
 			Console.WriteLine ("This is to be sure that nobody cheats.");
 			Thread.Sleep (3000);
-			Console.WriteLine ("Thankyou for reading this short messag!");
+			Console.WriteLine ("Thankyou for reading this short message!");
 			Thread.Sleep (3000);
 			Console.WriteLine ("Are you ready to continue the game?");
 			Console.ReadKey ();
