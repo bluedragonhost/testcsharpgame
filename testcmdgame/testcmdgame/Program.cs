@@ -46,10 +46,26 @@ namespace testcmdgame
 			Thread.Sleep (500);
 			//say that the credentials are correct
 			Console.WriteLine ("Credentials Correct!");
-			Thread.Sleep (200)
+			Thread.Sleep (200);
 			#endregion
 			#region AfterGameStartIntro
-			//coming soon
+			Console.WriteLine ("This game is like all others");
+			Console.WriteLine ("It is intended to the played randomly by the cpu");
+			Console.WriteLine ("The Player has no control over most of the game mechanics");
+			Console.WriteLine ("The Player will be able to control some parts of the game but not others!");
+			Console.WriteLine ("During the beta the Players will not be able to customise their character");
+			Console.WriteLine ("The feature will be added though!");
+			#endregion
+			#region WelcomeToTheGame
+			//the game asks the character what their name is
+			Console.WriteLine ("Welcome to the game umm, what was your name again?");
+			//Console.WriteLine ("[Info]- Please write your name below");
+
+			//this is the set name for all beta players
+			string nameofChar = "Jimmy";
+			Console.WriteLine ("That's right your name is,");
+			//references what your name is from the string value "nameofChar"
+			Console.WriteLine (nameofChar);
 			#endregion
 
 
