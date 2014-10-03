@@ -84,6 +84,9 @@ namespace testcmdgame
 				Console.WriteLine (LookofChar); 
 			}
 			#endregion
+			//this is the start of the game
+			// I Promise
+			// Really I will start this time
 			#region BetaNotfication
 			//this will tell the user about how the beta is going to work!
 			Console.WriteLine ("The Beta has commenced,");
@@ -119,7 +122,11 @@ namespace testcmdgame
 			Console.WriteLine ("Wow, this place is HUGE");
 			Console.WriteLine ("Actually Sir, It is quite small if you ask me!"); 
 			#endregion
+			#region SecondPart
+			Console.WriteLine ("You continue walking along a Path that is very wet like it has rained not long ago");
+			Console.WriteLine ("What do you do next");
 
+			#endregion
 
 
 
