@@ -125,11 +125,37 @@ namespace testcmdgame
 			#region SecondPart
 			Console.WriteLine ("You continue walking along a Path that is very wet like it has rained not long ago");
 			Console.WriteLine ("What do you do next");
-			Console.WriteLine ("I walk along a passage"); 
+			Console.WriteLine ("I continue walking!");
+			Console.WriteLine ("What do you do next, A. There infront of you a ice cream van has spawned or B. Do you walk down this very boring path");
+			Console.WriteLine ("You can pick either a or b for this one.");
+			// The Player can pick for themselves in this bit
+			ConsoleKeyInfo keyInfo;
+			while ((keyInfo = Console.ReadKey(true)).Key != ConsoleKey.Escape)
+
+			{
+
+				switch (keyInfo.Key)
+
+				{
+
+				case ConsoleKey.A:
+
+					Console.WriteLine ("You have been captured and killed by a person hiding in the ice cream van!");
+					break;
+
+
+				case ConsoleKey.B:
+
+					Console.WriteLine ("You have survived the choice and you are of full health");
+					break;
+				}
+
 			#endregion
+
 
 
 
 		}
 	}
-}
+	}}
+
