@@ -75,21 +75,10 @@ namespace testcmdgame
 			Console.WriteLine (nameofChar);
 			#endregion
 			#region AppearancesEngine
-			//this will introduce the player to the engine
-			Console.WriteLine (nameofChar);
-			Console.WriteLine ("What do you look like?");
-			bool isBeta = true;
-			string LookofChar = "!The Character Appearence Customisation will be unavailble during the Beta!";
-			if (isBeta == true)
-			{
-				Console.WriteLine ("During the Beta, Nobody will be able to change the name value or the appearence of any character");
-				Console.WriteLine ("OK?");
-				Console.ReadKey ();
-			}
-			else
-			{
-				Console.WriteLine (LookofChar); 
-			}
+			// This will ask the user what they look like
+			Console.WriteLine ("What do you look like");
+			Console.WriteLine ("Oh, thats right you have the imagine what you look like");
+			Console.WriteLine ("Because this game is a Console Game!"); 
 			#endregion
 			//this is the start of the game
 			// I Promise
@@ -179,6 +168,7 @@ namespace testcmdgame
 				}
 
 			#endregion
+		
 
 
 
